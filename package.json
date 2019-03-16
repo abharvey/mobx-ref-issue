@@ -1,0 +1,29 @@
+{
+  "name": "mobx-ref-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abharvey/mobx-ref-issue.git"
+  },
+  "author": "Alex Harvey <aharvey@prontoforms.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abharvey/mobx-ref-issue/issues"
+  },
+  "homepage": "https://github.com/abharvey/mobx-ref-issue#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.1.0",
+    "mobx": "^4.1.1",
+    "mobx-state-tree": "^2.0.3"
+  }
+}
