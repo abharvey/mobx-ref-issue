@@ -10,7 +10,7 @@ export const Quest = t.model("Quest", {
     property: t.string,
     qt: t.late(() => t.reference(Cutie))
 }).actions((self) => ({
-    afterCreate() {
+    afterAttach() {
         console.info('****After Attach Fired****:', self.id);
         self.setProp(self.qt.property);
     },

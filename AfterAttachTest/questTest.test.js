@@ -20,6 +20,6 @@ describe('quest test', () => {
         });
         store.create({ quest })
 
-        expect(quest.getProp()).toEqual("QT Test");
+        expect(quest.getProp()).toEqual("QT Test"); //fails
     });
 });
