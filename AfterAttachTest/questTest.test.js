@@ -15,10 +15,8 @@ describe('quest test', () => {
                 property: 'QT Test'
             })
         })
-        const store = t.model({
-            quest: t.reference(Quest)
-        });
-        store.create({ quest })
+
+        quest.afterAttach();
 
         expect(quest.getProp()).toEqual("QT Test"); //fails
     });

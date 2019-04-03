@@ -15,11 +15,15 @@ export const Quest = t.model("Quest", {
         self.setProp(self.qt.property);
     },
     setProp(val) {
-        self.property = val
+        self.property = 'GIT GUD'
     }
 })).views((self) => ({
     getProp() {
         return self.property;
+    }
+})).actions((self) => ({
+    setProp(val) {
+        self.property = val
     }
 }));
 
